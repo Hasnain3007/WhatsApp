@@ -2,28 +2,29 @@
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
+
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: rgb(32, 44, 51); 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #535353; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(32, 44, 51);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #535353;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 
 .bigmain {
     display: flex;
@@ -91,6 +92,10 @@ i {
 
 }
 
+#mybox {
+    background-color: rgb(31, 43, 51);
+}
+
 .box {
     display: flex;
     align-items: center;
@@ -102,10 +107,12 @@ i {
 
 .box:hover {
     background-color: rgb(31, 43, 51);
+    cursor: pointer;
 }
 
-.boximg {
-    width: 50px;    
+.box img {
+    width: 50px;
+    height: 50px;
     border-radius: 100%;
 }
 
